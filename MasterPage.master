@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="ph" runat="server"></asp:ContentPlaceHolder>
+        <div style="height:200px; color:darksalmon; background-color:powderblue; text-align:center; font-size: xx-large;">
+            
+            <br />
+            <br />
+            
+            
+           
+
+            
+            
+           
+
+            <asp:Table ID="Table1" runat="server" CellSpacing="5" Width="100%">
+                <asp:TableRow ID="TableRow1" runat="server">
+<asp:TableCell ID="TableCell1" runat="server"> 
+    <asp:LinkButton ID="LinkButton2" runat="server"   BackColor="#FFFFCC" Font-Bold="True">LinkButton</asp:LinkButton>
+</asp:TableCell>
+<asp:TableCell ID="TableCell2" runat="server">
+    <asp:LinkButton ID="LinkButton1" runat="server"  BackColor="#FFFFCC" Font-Bold="True">LinkButton</asp:LinkButton>
+</asp:TableCell>
+<asp:TableCell ID="TableCell3" runat="server">
+    <asp:LinkButton ID="LinkButton3" runat="server"  BackColor="#FFFFCC" Font-Bold="True">LinkButton</asp:LinkButton>
+</asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>
+            
+            
+           
+
+        </div>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
